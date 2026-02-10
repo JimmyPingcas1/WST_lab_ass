@@ -19,17 +19,34 @@ php artisan migrate --seed
 5. **Start the development server**  
 php artisan serve
 
-6. **Access the application**  
-Open your browser and go to http://localhost:8000/login  
-After login, you will be redirected to /dashboard.
+## 6. Access the Application
+
+Start the Laravel development server:
+
+```bash
+php artisan serve
+```
+
+Then open your browser and go to:
+
+```
+http://localhost:8000/login
+```
+
+After logging in successfully, you will be redirected to:
+
+```
+/dashboard
+```
+
 
 ## 3. Sample Login Credentials  
 Use the following seeded users to log in:
 
 | Email                      | Password  |
 |----------------------------|----------|
-| aleigh25@example.org       | password |
+| caleigh25@example.org      | password |
 | npowlowski@example.org     | password |
 | kayla44@example.net        | password |
 | atoy@example.net           | password |
-| dgerlach@example.org       | password |
+| ddgerlach@example.org      | password |
