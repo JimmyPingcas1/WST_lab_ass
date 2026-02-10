@@ -13,6 +13,10 @@
                     <span class="text-blue-600 font-bold text-lg">
                         {{ Auth::user()?->name ?? 'Guest' }}
                     </span>
+                    <br>
+                    <span class="text-gray-600 text-base">
+                        {{ Auth::user()?->email ?? 'No email' }}
+                    </span>
                 </div>
             </div>
         </div>
